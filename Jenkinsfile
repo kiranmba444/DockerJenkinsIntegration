@@ -51,7 +51,7 @@ sh '''
 
     
     docker build -t mywebapp .
-    docker run -d -p 5555:8080 mywebapp
+    docker run -d -p 4444:8080 mywebapp
 '''
 }
 }
